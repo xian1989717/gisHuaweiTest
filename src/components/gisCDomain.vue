@@ -16,9 +16,9 @@ export default {
     };
   },
   components: {
-    gisA: require("./GIS_A.vue").default,
-    gisB: require("./GIS_B.vue").default,
-    gisH: require("./GIS_H.vue").default
+    gisA: require("./gisADomain.vue").default,
+    gisB: require("./gisBDomain.vue").default,
+    gisH: require("./gisHeaderDomian.vue").default
   }
 };
 </script>
