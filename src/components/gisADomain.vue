@@ -195,6 +195,10 @@ export default {
   components: {
     tableCom: require("../basicComponents/tableCom/tableComponents.vue").default
   },
+  created() {
+    //测试ajax是否可以使用
+    // this.$http.get("/api/goods").then(response => {});
+  },
   methods: {
     changePartSheetA(id) {
       if (id === 0) {
