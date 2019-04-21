@@ -9,7 +9,7 @@
         name="first"
       >
         <tableCom
-          :data="tableData"
+          :data="tableData0"
           :height="tableHeight"
         ></tableCom>
       </el-tab-pane>
@@ -18,7 +18,7 @@
         name="second"
       >
         <tableCom
-          :data="tableData"
+          :data="tableData1"
           :height="tableHeight"
         ></tableCom>
       </el-tab-pane>
@@ -27,7 +27,7 @@
         name="third"
       >
         <tableCom
-          :data="tableData"
+          :data="tableData2"
           :height="tableHeight"
         ></tableCom>
       </el-tab-pane>
@@ -36,7 +36,7 @@
         name="fourth"
       >
         <tableCom
-          :data="tableData"
+          :data="tableData3"
           :height="tableHeight"
         ></tableCom>
       </el-tab-pane>
@@ -50,7 +50,7 @@ export default {
     return {
       activeName: "first",
       tableHeight: "210",
-      tableData: {
+      tableData0: {
         tableColumn: [
           {
             date: "2016-05-02",
@@ -75,13 +75,457 @@ export default {
             name: "王小虎",
             address: "上海市普陀区金沙江路 1516 弄",
             tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          }
+        ]
+      },
+      tableData1: {
+        tableColumn: [
+          {
+            date: "2016-05-02",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "家"
+          },
+          {
+            date: "2016-05-04",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-01",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "家"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "peter",
+            address: "北京市新城区农业银行",
+            tag: "公司"
+          }
+        ]
+      },
+      tableData2: {
+        tableColumn: [
+          {
+            date: "2016-05-02",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "家"
+          },
+          {
+            date: "2016-05-04",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-01",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "家"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "李小虎",
+            address: "广州市天河区小蛮腰",
+            tag: "公司"
+          }
+        ]
+      },
+      tableData3: {
+        tableColumn: [
+          {
+            date: "2016-05-02",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1518 弄",
+            tag: "家"
+          },
+          {
+            date: "2016-05-04",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1517 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-01",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1519 弄",
+            tag: "家"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
+          },
+          {
+            date: "2016-05-03",
+            name: "王小虎",
+            address: "上海市普陀区金沙江路 1516 弄",
+            tag: "公司"
           }
         ]
       }
     };
   },
   components: {
-    tableCom: require("../basicComponents/tableComponents.vue").default
+    tableCom: require("../basicComponents/tableCom/tableComponents.vue").default
   }
 };
 </script>

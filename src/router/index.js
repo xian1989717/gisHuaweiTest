@@ -4,7 +4,7 @@ import '../assets/css/base.css';
 import 'element-ui/lib/theme-chalk/index.css';
 import ElementUI from 'element-ui';
 import GIS_C from '@/components/gisCDomain';
-
+import axios from 'axios';
 
 
 Vue.use(Router);
