@@ -248,6 +248,7 @@ export default {
       width: 100%;
       margin-left: 1px;
       height: 50px;
+      text-align: center;
       border-bottom: 1px solid #ccc;
     }
   }
